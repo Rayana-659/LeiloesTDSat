@@ -1,3 +1,5 @@
+
+
 \# LeiloesTDSat
 
 
@@ -6,25 +8,25 @@
 
 
 
-O LeiloesTDSat é um sistema informatizado desenvolvido para auxiliar mas atividades de uma casa de leilões.
+O LeiloesTDSat é um sistema informatizado desenvolvido para auxiliar nas atividades de uma casa de leilões.
 
 
 
-O projeto permite o gerenciamento de produtos e informações relacionadas aos leilões, facilitando a organização e o controle dessas atividades. 
+O projeto permite o gerenciamento de produtos e informações relacionadas aos leilões, facilitando a organização e o controle dessas atividades.
 
 
 
-\## Tecnologias utilizadas 
+\## Tecnologias utilizadas
 
 
 
-\-Java
+\- Java
 
-\-MySQL
+\- MySQL
 
-\-Git
+\- Git
 
-\-GitHub
+\- GitHub
 
 
 
@@ -32,11 +34,7 @@ O projeto permite o gerenciamento de produtos e informações relacionadas aos l
 
 
 
-Desenvolver uma aplicação para informatizar e facilitar os processos de gerenciamento de uma casa de leilões. 
-
-
-
-
+Desenvolver uma aplicação para informatizar e facilitar os processos de gerenciamento de uma casa de leilões.
 
 
 
