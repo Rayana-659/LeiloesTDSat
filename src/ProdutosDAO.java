@@ -83,5 +83,33 @@ public ArrayList<ProdutosDTO> listarProdutos() {
 
     return listagem;
 }
+public boolean venderProduto(int id) {
+
+    String sql = "UPDATE produtos SET status = ? WHERE id = ?";
+
+    try {
+        conn = new conectaDAO().connectDB();
+        prep = conn.prepareStatement(sql);
+
+        prep.setString(1, "Vendido");
+        prep.setInt(2, id);
+
+        int linhasAfetadas = prep.executeUpdate();
+
+        return linhasAfetadas > 0;
+
+    } catch (SQLException erro) {
+        System.out.println("Erro ao vender produto: " + erro.getMessage());
+        return false;
+
+    } finally {
+        try {
+            if (prep != null) prep.close();
+            if (conn != null) conn.close();
+        } catch (SQLException erro) {
+            System.out.println("Erro ao fechar conexão: " + erro.getMessage());
+        }
+    }
+}
 
 }
